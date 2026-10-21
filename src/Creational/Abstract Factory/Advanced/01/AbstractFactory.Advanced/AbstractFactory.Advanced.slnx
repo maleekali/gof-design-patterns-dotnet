@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/adr-001-abstract-factory.md" />
+  </Folder>
+  <Folder Name="/samples/">
+    <File Path="samples/orders.jsonl" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="docker-compose.yml" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FeedIngestion.Worker/FeedIngestion.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FeedIngestion.Tests/FeedIngestion.Tests.csproj" />
+  </Folder>
+</Solution>
