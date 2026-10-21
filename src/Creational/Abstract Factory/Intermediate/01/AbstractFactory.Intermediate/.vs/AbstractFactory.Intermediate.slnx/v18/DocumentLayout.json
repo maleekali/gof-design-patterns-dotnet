@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-10-21T16:26:02.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAgwK4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-21T16:24:40.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",

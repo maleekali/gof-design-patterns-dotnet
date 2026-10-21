@@ -1,0 +1,17 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: abstract-factory-import-preview-redis
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "local-dev-password"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - import-preview-redis-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a 'local-dev-password' ping 2>/dev/null | grep -q PONG"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  import-preview-redis-data:
