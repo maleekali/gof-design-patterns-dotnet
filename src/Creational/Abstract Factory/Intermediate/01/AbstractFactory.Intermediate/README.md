@@ -94,7 +94,7 @@ The response includes `cacheHit`. Repeating the exact same file with the same fo
 ## Run tests
 
 ```bash
-dotnet test AbstractFactory.Intermediate.sln
+dotnet test AbstractFactory.Intermediate.slnx
 ```
 
 The unit tests use an in-memory test cache and do not require Docker or a running Redis instance.
