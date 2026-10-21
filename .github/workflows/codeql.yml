@@ -33,9 +33,57 @@ jobs:
         uses: github/codeql-action/init@v4
         with:
           languages: csharp
-          build-mode: autobuild
+          build-mode: manual
 
-      - name: Analyze
+      # CodeQL manual mode records the source files compiled by these commands.
+      # Build every solution so nested learning projects are included.
+      - name: Build .NET solutions for CodeQL
+        shell: bash
+        env:
+          DOTNET_CLI_TELEMETRY_OPTOUT: '1'
+          DOTNET_NOLOGO: '1'
+        run: |
+          set -euo pipefail
+
+          mapfile -t solutions < <(
+            find . -type f \
+              \( -name '*.sln' -o -name '*.slnx' \) \
+              -not -path '*/bin/*' \
+              -not -path '*/obj/*' \
+              -not -path '*/.git/*' \
+              -print | sort
+          )
+
+          if ((${#solutions[@]} > 0)); then
+            echo "Found ${#solutions[@]} solution file(s)."
+            for solution in "${solutions[@]}"; do
+              echo "::group::Building ${solution}"
+              dotnet build "${solution}" --configuration Release
+              echo "::endgroup::"
+            done
+          else
+            echo "No solution files found; falling back to individual C# projects."
+            mapfile -t projects < <(
+              find . -type f -name '*.csproj' \
+                -not -path '*/bin/*' \
+                -not -path '*/obj/*' \
+                -not -path '*/.git/*' \
+                -print | sort
+            )
+
+            if ((${#projects[@]} == 0)); then
+              echo '::error::No .sln, .slnx, or .csproj files were found.'
+              exit 1
+            fi
+
+            for project in "${projects[@]}"; do
+              echo "::group::Building ${project}"
+              dotnet build "${project}" --configuration Release
+              echo "::endgroup::"
+            done
+          fi
+
+      - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v4
         with:
           category: '/language:csharp'
