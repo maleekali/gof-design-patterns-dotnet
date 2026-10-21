@@ -1,0 +1,1 @@
+Hi {{CustomerName}}, order {{OrderNumber}} has been received. Thank you for shopping with us.
