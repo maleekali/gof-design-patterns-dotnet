@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-21T16:23:36.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
