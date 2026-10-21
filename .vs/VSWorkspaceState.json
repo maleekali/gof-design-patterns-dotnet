@@ -4,9 +4,9 @@
     "\\src",
     "\\src\\Creational",
     "\\src\\Creational\\Abstract Factory",
-    "\\src\\Creational\\Abstract Factory\\Beginner",
-    "\\src\\Creational\\Abstract Factory\\Beginner\\01"
+    "\\src\\Creational\\Abstract Factory\\Intermediate",
+    "\\src\\Creational\\Abstract Factory\\Intermediate\\01"
   ],
-  "SelectedNode": "\\src\\Creational\\Abstract Factory\\Beginner\\01",
+  "SelectedNode": "\\src\\Creational\\Abstract Factory\\Intermediate\\01",
   "PreviewInSolutionExplorer": false
 }
