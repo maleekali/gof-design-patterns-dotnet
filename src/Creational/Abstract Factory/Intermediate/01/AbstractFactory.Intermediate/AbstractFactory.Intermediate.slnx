@@ -7,4 +7,7 @@
   <Folder Name="/src/">
     <Project Path="src/ImportPreview.Api/ImportPreview.Api.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ImportPreview.Test/ImportPreview.Test.csproj" Id="e3b960f5-03f9-46d2-8095-c8d22ab26749" />
+  </Folder>
 </Solution>

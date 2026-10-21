@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ImportPreview.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:11313;http://localhost:11314"
+    }
+  }
+}
