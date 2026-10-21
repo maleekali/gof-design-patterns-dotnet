@@ -1,0 +1,79 @@
+name: .NET CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  discover-solutions:
+    name: Discover .NET solutions
+    runs-on: ubuntu-latest
+    outputs:
+      solutions: ${{ steps.find.outputs.solutions }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Find solution files
+        id: find
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          solutions_json="$(find . -type f \( -name '*.sln' -o -name '*.slnx' \) \
+            -not -path '*/bin/*' \
+            -not -path '*/obj/*' \
+            -print | sort | jq -R -s -c 'split("\n") | map(select(length > 0))')"
+
+          if [[ "$solutions_json" == "[]" ]]; then
+            echo "::error::No .sln or .slnx files were found in the repository."
+            exit 1
+          fi
+
+          echo "Found solution files: $solutions_json"
+          echo "solutions=$solutions_json" >> "$GITHUB_OUTPUT"
+
+  build-and-test:
+    name: Build and test
+    needs: discover-solutions
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        solution: ${{ fromJSON(needs.discover-solutions.outputs.solutions) }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Show SDK information
+        run: dotnet --info
+
+      - name: Restore dependencies
+        env:
+          SOLUTION: ${{ matrix.solution }}
+        run: dotnet restore "$SOLUTION"
+
+      - name: Build solution
+        env:
+          SOLUTION: ${{ matrix.solution }}
+        run: dotnet build "$SOLUTION" --configuration Release --no-restore
+
+      - name: Run tests
+        env:
+          SOLUTION: ${{ matrix.solution }}
+        run: dotnet test "$SOLUTION" --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
