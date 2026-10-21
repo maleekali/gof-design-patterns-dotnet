@@ -4,4 +4,7 @@
     <File Path="docker-compose.yml" />
     <File Path="README.md" />
   </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ImportPreview.Api/ImportPreview.Api.csproj" />
+  </Folder>
 </Solution>
