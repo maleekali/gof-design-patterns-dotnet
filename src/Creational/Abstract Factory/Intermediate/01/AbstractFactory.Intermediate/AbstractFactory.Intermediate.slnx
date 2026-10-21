@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/samples/">
+    <File Path="samples/customers.csv" />
+    <File Path="samples/customers.json" />
+    <File Path="samples/README.md" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
     <File Path="docker-compose.yml" />

@@ -1,31 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2BDA8624-053D-48CC-9FA8-29B671B8C0D9}|..\\tests\\AbstractFactory.Intermediate\\ImportPreview.Tests\\ImportPreview.Tests.csproj|c:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\creational\\abstract factory\\intermediate\\01\\tests\\abstractfactory.intermediate\\importpreview.tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{372C7355-2A00-43EB-91B1-F49EC40B6FC9}|src\\ImportPreview.Api\\ImportPreview.Api.csproj|c:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\creational\\abstract factory\\intermediate\\01\\abstractfactory.intermediate\\src\\importpreview.api\\importpreview.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{372C7355-2A00-43EB-91B1-F49EC40B6FC9}|src\\ImportPreview.Api\\ImportPreview.Api.csproj|solutionrelative:src\\importpreview.api\\importpreview.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{372C7355-2A00-43EB-91B1-F49EC40B6FC9}|src\\ImportPreview.Api\\ImportPreview.Api.csproj|c:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\creational\\abstract factory\\intermediate\\01\\abstractfactory.intermediate\\src\\importpreview.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{372C7355-2A00-43EB-91B1-F49EC40B6FC9}|src\\ImportPreview.Api\\ImportPreview.Api.csproj|solutionrelative:src\\importpreview.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|Solution Items{A4736B15-CD01-44BA-948F-AF4D95A9BA82}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -33,89 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\tests\\AbstractFactory.Intermediate\\ImportPreview.Tests\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\tests\\AbstractFactory.Intermediate\\ImportPreview.Tests\\Class1.cs",
-              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\tests\\AbstractFactory.Intermediate\\ImportPreview.Tests\\Class1.cs",
-              "RelativeToolTip": "..\\tests\\AbstractFactory.Intermediate\\ImportPreview.Tests\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:34:28.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImportPreview.Api",
-              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\src\\ImportPreview.Api\\ImportPreview.Api.csproj",
-              "RelativeDocumentMoniker": "src\\ImportPreview.Api\\ImportPreview.Api.csproj",
-              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\src\\ImportPreview.Api\\ImportPreview.Api.csproj",
-              "RelativeToolTip": "src\\ImportPreview.Api\\ImportPreview.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-21T16:32:12.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\src\\ImportPreview.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ImportPreview.Api\\Program.cs",
-              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\src\\ImportPreview.Api\\Program.cs",
-              "RelativeToolTip": "src\\ImportPreview.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T16:31:31.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-10-21T16:26:02.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAgwK4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-21T16:24:40.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\bussiness\\github-projects\\gof-design-patterns-dotnet\\src\\Creational\\Abstract Factory\\Intermediate\\01\\AbstractFactory.Intermediate\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-21T16:23:36.762Z",
-              "EditorCaption": ""
             }
           ]
         }
