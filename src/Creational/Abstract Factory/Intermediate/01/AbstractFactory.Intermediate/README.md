@@ -62,19 +62,19 @@ docker compose up -d redis
 Start the API:
 
 ```bash
-dotnet run --project src/ImportPreview.Api --urls http://localhost:5080
+dotnet run --project src/ImportPreview.Api --urls http://localhost:11314
 ```
 
 Health check:
 
 ```bash
-curl http://localhost:5080/health
+curl http://localhost:11314/health
 ```
 
 ### Preview a CSV file
 
 ```bash
-curl -X POST http://localhost:5080/imports/preview \
+curl -X POST http://localhost:11314/imports/preview \
   -F "format=csv" \
   -F "file=@samples/customers.csv"
 ```
@@ -82,7 +82,7 @@ curl -X POST http://localhost:5080/imports/preview \
 ### Preview a JSON file
 
 ```bash
-curl -X POST http://localhost:5080/imports/preview \
+curl -X POST http://localhost:11314/imports/preview \
   -F "format=json" \
   -F "file=@samples/customers.json"
 ```
